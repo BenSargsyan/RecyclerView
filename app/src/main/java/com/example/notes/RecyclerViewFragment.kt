@@ -18,9 +18,8 @@ import com.google.android.material.snackbar.Snackbar
 
 var save:Boolean=false
 var objects= mutableListOf<NoteElement> (
-    NoteElement("ToDo list","Go to grocery store\n" +
-            "read Injustice"),
-    NoteElement("Barchester Towers","Anthony Trollope"))
+    NoteElement("//////",///////////"),
+    NoteElement("//////","///////"))
 class RecyclerViewFragment: Fragment() {
     lateinit var notesList: RecyclerView
     lateinit var addNoteBtn: Button
